@@ -144,10 +144,10 @@ int main()
 {
     // 0 means unassigned cells
     int grid[N][N];
-    cout<<"Enter Your Suduko here (in row-wise manner) : \n\n"<<;
+    cout<<"Enter Your Suduko here (in row-wise manner) : \n\n";
     for(int i=0;i<9;i++){
         for(int j=0;j<9;j++)
-            cin>>gird[i][j];
+            cin>>grid[i][j];
     }
 
     if (SolveSudoku(grid) == true){
